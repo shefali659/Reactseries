@@ -10,6 +10,7 @@ import UseRefDemo from "./userRefHook";
 import ReducerDemo from "./ReducerDemo";
 import ClassDemo from "./ClassDemo";
 import reportWebVitals from './reportWebVitals';
+import SearchFilter from './searchFilter';
 
 export default function App(){
 //  return(
@@ -25,7 +26,7 @@ export default function App(){
 
 //const myFirstElem = <h1>Hello React Baby</h1>
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ClassDemo brand='Mustang'/>);
+root.render(<SearchFilter/>);
 //root.render(<Car color='red'/>);
 // root.render(
 //   <React.StrictMode>
