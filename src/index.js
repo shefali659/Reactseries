@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import {BrowserRoute, Route, Routes} from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,10 +8,12 @@ import Cmp1 from './components/Context';
 import KeysDemo from './components/Keys';
 import UserName from "./components/form";
 import UseRefDemo from "./components/userRefHook";
-import ReducerDemo from "./components/ReducerDemo";
+import TodoList from "./components/TodoList/TodoList";
 import ClassDemo from "./components/ClassDemo";
 import SearchFilter from './components/searchFilter';
 import LoginForm from './components/Login/Loginform';
+import Dashboard from './components/Dashboard';
+
 
 export default function App(){
 //  return(
@@ -26,9 +27,8 @@ export default function App(){
 //  )
 }
 
-//const myFirstElem = <h1>Hello React Baby</h1>
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<LoginForm/>);
+root.render(<TodoList/>);
 //root.render(<Car color='red'/>);
 // root.render(
 //   <React.StrictMode>
